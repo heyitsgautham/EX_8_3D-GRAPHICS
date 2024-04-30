@@ -12,15 +12,15 @@ Step 5: Design layout in activity_main.xml.
 Step 6: Draw basic object details give in MainActivity file. 
 Step 7: Save and run the application
 ## PROGRAM:
-
+```
 /*
 Program to create and design an android application to draw a shapes using 3D graphics with openGL ES.
 Developed by: Gautham Krishna S
 Registeration Number : 212223240073
 */
-
+```
 ### MainActivity.java
-java
+```java
 package com.example.ex08;
 import androidx.appcompat.app.AppCompatActivity;
 import android.opengl.GLSurfaceView;
@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
         glView.onResume();
     }
 }
-
+```
 ### MyGLRenderer.java
-java
+```java
 package com.example.ex08;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
@@ -102,9 +102,9 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         angleCube += speedCube;
     }
 }
-
+```
 ### pyramid.java
-java
+```java
 package com.example.ex08;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -228,7 +228,7 @@ class Cube {
         gl.glDisable(GL10.GL_CULL_FACE);
     }
 }
-
+```
 ## OUTPUT:
 ![326413636-10a0b958-c4e6-4c39-bb53-c36a57b2063c](https://github.com/gauthamkrishna7/EX_8_3D-GRAPHICS/assets/141175025/e8fbb358-981d-4d16-a6bb-1478ef5c93bd)
 
