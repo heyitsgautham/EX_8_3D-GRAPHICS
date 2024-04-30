@@ -161,9 +161,9 @@ class Pyramid {
         gl.glDisableClientState(GL10.GL_COLOR_ARRAY);
     }
 }
-
+```
 ### cube.java
-java
+```java
 package com.example.ex08;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
